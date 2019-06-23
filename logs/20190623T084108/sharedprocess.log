@@ -1,0 +1,27 @@
+[2019-06-23 08:41:21.019] [sharedprocess] [info] main {"machineId":"4b56edd6abb232693e6f5dc4d3b4e54e884ba8309efb39468bce93984b80e05b"}
+[2019-06-23 08:41:22.565] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:23.410] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-23 08:41:24.105] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:24.107] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:24.108] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:24.183] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-23 08:41:24.186] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-23 08:41:24.188] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-23 08:41:25.045] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:25.092] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-23 08:41:26.281] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:28.772] [sharedprocess] [info] Installing extension: fivethree.vscode-svelte-snippets
+[2019-06-23 08:41:28.778] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:40.361] [sharedprocess] [info] Downloaded extension: fivethree.vscode-svelte-snippets /tmp/5644c5ec-2d96-4dbf-aaca-0777eb2ea00f
+[2019-06-23 08:41:40.390] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.fivethree.vscode-svelte-snippets-0.2.0: fivethree.vscode-svelte-snippets
+[2019-06-23 08:41:40.390] [sharedprocess] [info] Renamed to /root/.vscode/extensions/fivethree.vscode-svelte-snippets-0.2.0
+[2019-06-23 08:41:40.391] [sharedprocess] [info] Installation completed. fivethree.vscode-svelte-snippets
+[2019-06-23 08:41:40.575] [sharedprocess] [info] Extensions installed successfully: fivethree.vscode-svelte-snippets
+[2019-06-23 08:41:53.273] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-23 08:41:53.274] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-23 08:41:53.417] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:53.462] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-23 08:41:53.652] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:53.909] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:41:55.477] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-23 08:42:00.991] [sharedprocess] [info] Starting to clean up unused language packs.

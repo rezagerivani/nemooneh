@@ -1,0 +1,66 @@
+[2019-06-16 08:31:26.034] [exthost] [info] extension host started
+[2019-06-16 08:31:26.241] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:31:26.241] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-16 08:31:26.413] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:31:26.413] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-16 08:31:26.476] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:31:26.476] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-16 08:31:26.853] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:31:26.853] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-16 08:31:27.045] [exthost] [info] ExtensionService#_doActivateExtension austenc.laravel-blade-spacer {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:31:27.045] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/austenc.laravel-blade-spacer-1.0.3/out/extension
+[2019-06-16 08:31:27.090] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:31:27.090] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/esbenp.prettier-vscode-1.9.0/out/src/extension
+[2019-06-16 08:31:30.204] [exthost] [info] eager extensions activated
+[2019-06-16 08:32:49.385] [exthost] [info] extension host started
+[2019-06-16 08:32:49.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-06-16 08:32:49.434] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-06-16 08:32:49.660] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:32:49.660] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-16 08:32:49.663] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:32:49.663] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-16 08:32:49.676] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:32:49.676] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-16 08:32:49.758] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:32:49.758] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-16 08:32:49.763] [exthost] [info] ExtensionService#_doActivateExtension austenc.laravel-blade-spacer {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:32:49.763] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/austenc.laravel-blade-spacer-1.0.3/out/extension
+[2019-06-16 08:32:49.764] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:32:49.764] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/esbenp.prettier-vscode-1.9.0/out/src/extension
+[2019-06-16 08:32:49.896] [exthost] [info] eager extensions activated
+[2019-06-16 08:32:54.409] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-06-16 08:32:54.409] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/onecentlin.laravel-blade-1.20.0/out/src/extension
+[2019-06-16 08:36:26.818] [exthost] [info] extension host started
+[2019-06-16 08:36:26.844] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:26.844] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-16 08:36:26.848] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:26.848] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-16 08:36:26.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:26.866] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-16 08:36:26.942] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:26.942] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-16 08:36:26.946] [exthost] [info] ExtensionService#_doActivateExtension austenc.laravel-blade-spacer {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:26.946] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/austenc.laravel-blade-spacer-1.0.3/out/extension
+[2019-06-16 08:36:26.946] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:26.946] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/esbenp.prettier-vscode-1.9.0/out/src/extension
+[2019-06-16 08:36:27.122] [exthost] [info] eager extensions activated
+[2019-06-16 08:36:32.394] [exthost] [info] extension host started
+[2019-06-16 08:36:32.410] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:32.410] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-16 08:36:32.414] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:32.414] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-16 08:36:32.435] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:32.435] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-16 08:36:32.548] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:32.548] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-16 08:36:32.556] [exthost] [info] ExtensionService#_doActivateExtension austenc.laravel-blade-spacer {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:32.556] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/austenc.laravel-blade-spacer-1.0.3/out/extension
+[2019-06-16 08:36:32.557] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-06-16 08:36:32.557] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/esbenp.prettier-vscode-1.9.0/out/src/extension
+[2019-06-16 08:36:32.737] [exthost] [info] eager extensions activated
+[2019-06-16 08:36:43.655] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-06-16 08:36:43.655] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/onecentlin.laravel-blade-1.20.0/out/src/extension
+[2019-06-16 08:37:41.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-06-16 08:37:41.877] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-06-16 12:17:57.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-06-16 12:17:57.145] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/dist/phpMain

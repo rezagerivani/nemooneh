@@ -1,0 +1,44 @@
+[2019-06-15 12:13:49.986] [main] [info] update#setState idle
+[2019-06-15 12:14:19.988] [main] [info] update#setState checking for updates
+[2019-06-15 12:14:20.192] [main] [info] update#setState idle
+[2019-06-15 13:14:19.994] [main] [info] update#setState checking for updates
+[2019-06-15 13:14:20.592] [main] [info] update#setState idle
+[2019-06-15 14:14:20.049] [main] [info] update#setState checking for updates
+[2019-06-15 14:14:20.860] [main] [info] update#setState idle
+[2019-06-15 15:14:20.150] [main] [info] update#setState checking for updates
+[2019-06-15 15:14:20.752] [main] [info] update#setState idle
+[2019-06-15 16:14:20.185] [main] [info] update#setState checking for updates
+[2019-06-15 16:14:20.730] [main] [info] update#setState idle
+[2019-06-15 17:14:20.230] [main] [info] update#setState checking for updates
+[2019-06-15 17:14:20.795] [main] [info] update#setState idle
+[2019-06-15 18:14:20.265] [main] [info] update#setState checking for updates
+[2019-06-15 18:14:20.868] [main] [info] update#setState idle
+[2019-06-15 19:14:20.298] [main] [info] update#setState checking for updates
+[2019-06-15 19:14:20.924] [main] [info] update#setState idle
+[2019-06-15 20:14:20.320] [main] [info] update#setState checking for updates
+[2019-06-15 20:14:20.941] [main] [info] update#setState idle
+[2019-06-15 21:14:20.356] [main] [info] update#setState checking for updates
+[2019-06-15 21:14:20.895] [main] [info] update#setState idle
+[2019-06-15 22:14:20.390] [main] [info] update#setState checking for updates
+[2019-06-15 22:14:20.948] [main] [info] update#setState idle
+[2019-06-15 23:14:20.421] [main] [info] update#setState checking for updates
+[2019-06-15 23:14:21.028] [main] [info] update#setState idle
+[2019-06-16 00:14:20.454] [main] [info] update#setState checking for updates
+[2019-06-16 00:14:21.146] [main] [info] update#setState idle
+[2019-06-16 01:14:20.485] [main] [info] update#setState checking for updates
+[2019-06-16 01:16:35.975] [main] [error] Error: net::ERR_CONNECTION_TIMED_OUT
+[2019-06-16 01:16:35.975] [main] [info] update#setState idle
+[2019-06-16 02:14:20.518] [main] [info] update#setState checking for updates
+[2019-06-16 02:14:21.194] [main] [info] update#setState idle
+[2019-06-16 03:14:20.550] [main] [info] update#setState checking for updates
+[2019-06-16 03:14:21.224] [main] [info] update#setState idle
+[2019-06-16 04:14:20.569] [main] [info] update#setState checking for updates
+[2019-06-16 04:14:21.256] [main] [info] update#setState idle
+[2019-06-16 05:14:20.603] [main] [info] update#setState checking for updates
+[2019-06-16 05:14:21.176] [main] [info] update#setState idle
+[2019-06-16 06:14:20.680] [main] [info] update#setState checking for updates
+[2019-06-16 06:14:22.067] [main] [info] update#setState idle
+[2019-06-16 07:14:21.059] [main] [info] update#setState checking for updates
+[2019-06-16 07:14:21.941] [main] [info] update#setState idle
+[2019-06-16 08:14:21.255] [main] [info] update#setState checking for updates
+[2019-06-16 08:14:22.541] [main] [info] update#setState idle

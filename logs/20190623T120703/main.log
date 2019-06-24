@@ -1,3 +1,44 @@
 [2019-06-23 12:07:04.619] [main] [info] update#setState idle
 [2019-06-23 12:07:34.622] [main] [info] update#setState checking for updates
 [2019-06-23 12:07:34.751] [main] [info] update#setState idle
+[2019-06-23 13:07:34.626] [main] [info] update#setState checking for updates
+[2019-06-23 13:07:35.255] [main] [info] update#setState idle
+[2019-06-23 14:07:34.695] [main] [info] update#setState checking for updates
+[2019-06-23 14:07:35.258] [main] [info] update#setState idle
+[2019-06-23 15:07:34.724] [main] [info] update#setState checking for updates
+[2019-06-23 15:07:35.355] [main] [info] update#setState idle
+[2019-06-23 16:07:34.750] [main] [info] update#setState checking for updates
+[2019-06-23 16:07:35.329] [main] [info] update#setState idle
+[2019-06-23 17:07:34.768] [main] [info] update#setState checking for updates
+[2019-06-23 17:07:35.372] [main] [info] update#setState idle
+[2019-06-23 18:07:34.786] [main] [info] update#setState checking for updates
+[2019-06-23 18:07:35.346] [main] [info] update#setState idle
+[2019-06-23 19:07:34.797] [main] [info] update#setState checking for updates
+[2019-06-23 19:07:35.335] [main] [info] update#setState idle
+[2019-06-23 20:07:34.810] [main] [info] update#setState checking for updates
+[2019-06-23 20:07:35.338] [main] [info] update#setState idle
+[2019-06-23 21:07:34.822] [main] [info] update#setState checking for updates
+[2019-06-23 21:07:35.435] [main] [info] update#setState idle
+[2019-06-23 22:07:34.833] [main] [info] update#setState checking for updates
+[2019-06-23 22:07:35.459] [main] [info] update#setState idle
+[2019-06-23 23:07:34.841] [main] [info] update#setState checking for updates
+[2019-06-23 23:07:35.390] [main] [info] update#setState idle
+[2019-06-24 00:07:34.846] [main] [info] update#setState checking for updates
+[2019-06-24 00:07:35.448] [main] [info] update#setState idle
+[2019-06-24 01:07:34.857] [main] [info] update#setState checking for updates
+[2019-06-24 01:07:35.557] [main] [info] update#setState idle
+[2019-06-24 02:07:34.914] [main] [info] update#setState checking for updates
+[2019-06-24 02:07:35.492] [main] [error] Error: net::ERR_CONNECTION_REFUSED
+[2019-06-24 02:07:35.493] [main] [info] update#setState idle
+[2019-06-24 03:07:34.970] [main] [info] update#setState checking for updates
+[2019-06-24 03:07:35.493] [main] [error] Error: net::ERR_CONNECTION_REFUSED
+[2019-06-24 03:07:35.493] [main] [info] update#setState idle
+[2019-06-24 04:07:35.022] [main] [info] update#setState checking for updates
+[2019-06-24 04:07:35.419] [main] [error] Error: net::ERR_CONNECTION_REFUSED
+[2019-06-24 04:07:35.419] [main] [info] update#setState idle
+[2019-06-24 05:07:35.070] [main] [info] update#setState checking for updates
+[2019-06-24 05:07:35.914] [main] [error] Error: net::ERR_CONNECTION_REFUSED
+[2019-06-24 05:07:35.914] [main] [info] update#setState idle
+[2019-06-24 06:07:35.119] [main] [info] update#setState checking for updates
+[2019-06-24 06:07:35.565] [main] [error] Error: net::ERR_CONNECTION_REFUSED
+[2019-06-24 06:07:35.565] [main] [info] update#setState idle

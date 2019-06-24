@@ -166,6 +166,7 @@ return [
         Hekmatinasser\Verta\VertaServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
         Milon\Barcode\BarcodeServiceProvider::class,
+        
 
         /*
          * Package Service Providers...

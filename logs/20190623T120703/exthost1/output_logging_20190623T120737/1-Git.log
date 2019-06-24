@@ -130,3 +130,12 @@ Open repository: /home/lael/Laravel/nemooneh/nemooneh
 > git status -z -u
 > git check-ignore -v -z --stdin
 > git check-ignore -v -z --stdin
+> git show :.gitignore
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :config/app.php
+> git show :vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :config/app.php

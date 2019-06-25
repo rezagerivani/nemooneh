@@ -23,14 +23,14 @@ class SixthsController extends Controller
         $sixths = Sixths::where('nationalcode' , "=","{$nationalcode}")
                         ->get(); 
         if (isset($sixths[0]->nationalcode)){
-            $registration_code     = $request->registration_code; 
-            $registration_password = $request->registration_password;
-            $card = RegistrationCards::where([
-                            ['registration_code' , "=","{$registration_code}"],
-                            ['registration_password',"=","{$registration_password}"]
-                        ])
-                        ->get(); 
-            if(isset($card[0]->registration_code) && $card[0]->nationalcode == NULL){ 
+            // $registration_code     = $request->registration_code; 
+            // $registration_password = $request->registration_password;
+            // $card = RegistrationCards::where([
+            //                 ['registration_code' , "=","{$registration_code}"],
+            //                 ['registration_password',"=","{$registration_password}"]
+            //             ])
+            //             ->get(); 
+            // if(isset($card[0]->registration_code) && $card[0]->nationalcode == NULL){ 
                 $request->session()->put('isLoggedIn',TRUE);
                 $request->session()->put('nationalcode',$sixths[0]->nationalcode);
                 $request->session()->put('name',$sixths[0]->name);
@@ -43,18 +43,18 @@ class SixthsController extends Controller
                 $request->session()->put('now_school',$sixths[0]->now_school);
                 $request->session()->put('now_city',$sixths[0]->now_city);
             
-                DB::table('registration_cards')
-                    ->where('registration_code', $registration_code)
-                    ->update(['nationalcode' => $nationalcode]);
+                // DB::table('registration_cards')
+                //     ->where('registration_code', $registration_code)
+                //     ->update(['nationalcode' => $nationalcode]);
             
                     return redirect('/');
-            }else{
-                $data = array(
-                    'registration_code' => '',
-                    'registration_password' => ''
-                );
-                return view('login')->with('message','2')->with('data',$data);
-            }
+            // }else{
+            //     $data = array(
+            //         'registration_code' => '',
+            //         'registration_password' => ''
+            //     );
+            //     return view('login')->with('message','2')->with('data',$data);
+            // }
 
         }else{
             $data = array(

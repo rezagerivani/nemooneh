@@ -13,8 +13,8 @@
             </div>
             <div> 
             <small>کد رهگیری</small>
-            <h3 class="alert alert-success">
-                <iframe src="{{ URL::to('barcode')}}/{{ $student->tracking_code }}" frameborder="0" height="200px" scrolling="no"></iframe>
+            <h3 class="alert alert-success" class="text-center">
+                <iframe  class="text-center" src="{{ URL::to('barcode')}}/{{ $student->tracking_code }}" frameborder="0" height="200px" scrolling="no"></iframe>
             </h3>  
                     
             <small>ذخیره شده در {{ Verta::instance($student->created_at) }}</small>

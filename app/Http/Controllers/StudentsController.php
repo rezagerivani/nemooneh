@@ -125,7 +125,7 @@ class StudentsController extends Controller
         $qrCode = new QrCode();
         $qrCode
             ->setText($id)
-            ->setSize(100)
+            ->setSize(150)
             ->setPadding(10)
             ->setErrorCorrection('high')
             ->setForegroundColor(array('r' => 0, 'g' => 0, 'b' => 0, 'a' => 0))

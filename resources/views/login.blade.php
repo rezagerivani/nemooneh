@@ -108,7 +108,7 @@
                                 <label for="">کد ملی دانش آموز <small>(بدون صفر ابتدای کد ملی و بدون خط تیره )</small></label>
                                 <input type="text" name="nationalcode" id="" class="form-control">
                             </div>
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label for="">   
                                     <span>کد ثبت نام</span>
                                     
@@ -132,9 +132,9 @@
                                     value="{{ $data['registration_password'] }}"
                                     placeholder="{{ $data['registration_password'] }}"
                                 >
-                            </div>    
+                            </div>     --}}
                             <input type="submit" value="ورود" class="btn btn-primary btn-block">
-                            <a class="btn btn-danger btn-block" href="/payir/form">خرید کد ثبت نام </a>
+                            {{-- <a class="btn btn-danger btn-block" href="/payir/form">خرید کد ثبت نام </a> --}}
                         </form>
                     </div>
                         

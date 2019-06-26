@@ -1,0 +1,2 @@
+[2019-06-26 06:14:06.487] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/home/lael/Laravel/nemooneh/nemooneh/.vscode'
+[2019-06-26 06:14:17.011] [renderer1] [warning] UNRESPONSIVE extension host, 'esbenp.prettier-vscode' took 100% of 2811.125ms, saved PROFILE here: '/tmp/exthost-dcaef1.cpuprofile' [{"id":"esbenp.prettier-vscode","total":2800970,"percentage":100},{"id":"program","total":4291,"percentage":0},{"id":"self","total":2974,"percentage":0}]

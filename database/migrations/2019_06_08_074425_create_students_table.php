@@ -47,11 +47,12 @@ class CreateStudentsTable extends Migration
                 'کسب مقیاس خیلی خوب در تمامی دروس در نوبت پایه های پنجم و ششم',
                 'کسب مقیاس خوب در یک درس در یک نوبت یکی از پایه های پنجم یا ششم و مقیاس خیلی خوب در سایر دروس هر دو نوبت پایه های پنجم و ششم'
                 ]);
+            $table->integer('score1')->default('0')->nullable();    
             $table->string('quran_remember',3)->default('off')->nullable();
             $table->mediumInteger('jozs')->default('0')->nullable();
-
+            $table->integer('score2')->default('0')->nullable();       
             $table->mediumInteger('qen_2m')->default('0')->nullable();
-            $table->mediumInteger('qen_1m')->default('0')->nullable();
+            $table->mediumInteger('qen_1m')->default('0')->nullable();            
             $table->mediumInteger('qen_3m')->default('0')->nullable();
             $table->mediumInteger('qen_1o')->default('0')->nullable();
             $table->mediumInteger('qen_2o')->default('0')->nullable();
@@ -59,15 +60,17 @@ class CreateStudentsTable extends Migration
             $table->mediumInteger('qen_1k')->default('0')->nullable();
             $table->mediumInteger('qen_2k')->default('0')->nullable();
             $table->mediumInteger('qen_3k')->default('0')->nullable();
+            $table->integer('score3')->default('0')->nullable();    
             $table->mediumInteger('fh_1m')->default('0')->nullable();
             $table->mediumInteger('fh_2m')->default('0')->nullable();
-            $table->mediumInteger('fh_3m')->default('0')->nullable();
-            $table->mediumInteger('fh_1o')->default('0')->nullable();
-            $table->mediumInteger('fh_2o')->default('0')->nullable();
-            $table->mediumInteger('fh_3o')->default('0')->nullable();                       
+            $table->mediumInteger('fh_3m')->default('0')->nullable();          
+            $table->integer('score4')->default('0')->nullable();     
+
             $table->mediumInteger('jaber_1m')->default('0')->nullable();
             $table->mediumInteger('jaber_1o')->default('0')->nullable();
             $table->mediumInteger('jaber_1k')->default('0')->nullable();
+            $table->integer('score5')->default('0')->nullable(); 
+
             $table->mediumInteger('sport_1m')->default('0')->nullable();
             $table->mediumInteger('sport_2m')->default('0')->nullable();
             $table->mediumInteger('sport_3m')->default('0')->nullable();
@@ -77,11 +80,19 @@ class CreateStudentsTable extends Migration
             $table->mediumInteger('sport_1k')->default('0')->nullable();
             $table->mediumInteger('sport_2k')->default('0')->nullable();
             $table->mediumInteger('sport_3k')->default('0')->nullable();
+            $table->integer('score6')->default('0')->nullable(); 
 
             $table->mediumInteger('talif')->default('0')->nullable();
+            
+
             $table->mediumInteger('ekhtera')->default('0')->nullable();
+            $table->integer('score7')->default('0')->nullable(); 
+
             $table->string('shora',3)->default('off')->nullable();
+            $table->integer('score8')->default('0')->nullable(); 
             $table->string('pishtazan',3)->default('off')->nullable();
+            $table->integer('score9')->default('0')->nullable(); 
+            $table->integer('sum_score')->default('0')->nullable(); 
             $table->string('tracking_code',100);
             $table->timestamps();
         });

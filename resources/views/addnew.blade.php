@@ -284,7 +284,7 @@
                                                 </select> 
                                             </td>
                             </tr>
-                            <tr>
+                            {{-- <tr>
                                 <th>استان</th>
                                 <td>
                                         <select name="fh_1o" id="">
@@ -307,7 +307,7 @@
                                                     @endfor
                                                 </select> 
                                             </td>
-                            </tr>
+                            </tr> --}}
                             
                         </table>
                     </div>

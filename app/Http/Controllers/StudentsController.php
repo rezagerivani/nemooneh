@@ -43,40 +43,104 @@ class StudentsController extends Controller
         $student->phone                = $request->phone;
         $student->mobile               = $request->mobile;
         $student->academic_performance = $request->academic_performance;
+        switch($student->academic_performance){
+            case "کسب مقیاس خیلی خوب در تمامی دروس در نوبت پایه های پنجم و ششم":
+                $student->score1 = 600;
+                break;
+            case "کسب مقیاس خوب در یک درس در یک نوبت یکی از پایه های پنجم یا ششم و مقیاس خیلی خوب در سایر دروس هر دو نوبت پایه های پنجم و ششم":
+                $student->score1 = 500;    
+                break;
+            default:
+                $student->score1 = 0;
+                break;
+        }
         $student->quran_remember       = $request->quran_remember;
         $student->jozs                 = $request->jozs;
+        if ($student->quran_remember == "on"){
+            $student->score2 = ($student->jozs)*10;
+        }else{
+            $student->score2 = 0;
+        }
+        $student->score3 = 0;
         $student->qen_1m               = $request->qen_1m;
+        $student->score3 += ($student->qen_1m)*120;
         $student->qen_2m               = $request->qen_2m;
+        $student->score3 += ($student->qen_2m)*90;
         $student->qen_3m               = $request->qen_3m;
+        $student->score3 += ($student->qen_3m)*60;
         $student->qen_1o               = $request->qen_1o;
+        $student->score3 += ($student->qen_1o)*150;
         $student->qen_2o               = $request->qen_2o;
+        $student->score3 += ($student->qen_2o)*120;
         $student->qen_3o               = $request->qen_3o;
+        $student->score3 += ($student->qen_3o)*90;
         $student->qen_1k               = $request->qen_1k;
+        $student->score3 += ($student->qen_1k)*180;
         $student->qen_2k               = $request->qen_2k;
+        $student->score3 += ($student->qen_2k)*150;
         $student->qen_3k               = $request->qen_3k;
-        $student->fh_1m                = $request->fh_1m;
-        $student->fh_2m                = $request->fh_2m;
-        $student->fh_3m                = $request->fh_3m;
-        $student->fh_1o                = $request->fh_1o;
-        $student->fh_2o                = $request->fh_2o;
-        $student->fh_3o                = $request->fh_3o;
-        $student->jaber_1m             = $request->jaber_1m;
-        $student->jaber_1o             = $request->jaber_1o;
-        $student->jaber_1k             = $request->jaber_1k;
+        $student->score3 += ($student->qen_3k)*120;
+        if($student->score3 >330){$student->score3 = 330;}
         
+        $student->score4 = 0;
+        $student->fh_1m                = $request->fh_1m;
+        $student->score4 += ($student->fh_1m)*120;
+        $student->fh_2m                = $request->fh_2m;
+        $student->score4 += ($student->fh_2m)*90;
+        $student->fh_3m                = $request->fh_3m;
+        $student->score4 += ($student->fh_3m)*60;
+        if($student->score4 >120){$student->score4 = 120;}
+        
+        $student->score5 = 0;
+        $student->jaber_1m             = $request->jaber_1m;
+        $student->score5 += ($student->jaber_1m)*120;
+        $student->jaber_1o             = $request->jaber_1o;
+        $student->score5 += ($student->jaber_1o)*150;
+        $student->jaber_1k             = $request->jaber_1k;
+        $student->score5 += ($student->jaber_1k)*180;
+        if($student->score5 >330){$student->score5 = 330;}
+        
+        $student->score6 = 0;
         $student->sport_1m             = $request->sport_1m;
+        $student->score6 += ($student->sport_1m)*120;
         $student->sport_2m             = $request->sport_2m;
+        $student->score6 += ($student->sport_2m)*90;
         $student->sport_3m             = $request->sport_3m;
+        $student->score6 += ($student->sport_3m)*60;
         $student->sport_1o             = $request->sport_1o;
+        $student->score6 += ($student->sport_1o)*150;
         $student->sport_2o             = $request->sport_2o;
+        $student->score6 += ($student->sport_2o)*120;
         $student->sport_3o             = $request->sport_3o;
+        $student->score6 += ($student->sport_3o)*90;
         $student->sport_1k             = $request->sport_1k;
+        $student->score6 += ($student->sport_1k)*180;
         $student->sport_2k             = $request->sport_2k;
+        $student->score6 += ($student->sport_2k)*150;
         $student->sport_3k             = $request->sport_3k; 
+        $student->score6 += ($student->sport_3k)*120;
+        if($student->score6 >330){$student->score6 = 330;}
+
         $student->talif                = $request->talif;
+                
         $student->ekhtera              = $request->ekhtera;
+        $student->score7 = (($student->talif)*120) + (($student->ekhtera)*120);
+        if($student->score7 >240){$student->score7 = 240;}
+
         $student->shora                = $request->shora;
+        if ($student->shora  == "on"){
+            $student->score8 = 100;
+        }else{
+            $student->score8 = 0;
+        }
         $student->pishtazan = $request->pishtazan;
+        if ($student->pishtazan  == "on"){
+            $student->score9 = 100;
+        }else{
+            $student->score9 = 0;
+        }
+
+        $student->sum_score = $student->score1+$student->score2+$student->score3+$student->score4+$student->score5+$student->score6+$student->score7+$student->score8+$student->score9;
         $student->tracking_code        = str_random(25);
 
         if($student->save()){            

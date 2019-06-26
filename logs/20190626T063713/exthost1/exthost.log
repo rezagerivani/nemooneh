@@ -24,3 +24,5 @@
 [2019-06-26 06:41:08.518] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/onecentlin.laravel-blade-1.20.0/out/src/extension
 [2019-06-26 06:42:01.944] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
 [2019-06-26 06:42:01.944] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-06-26 08:55:41.837] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-06-26 08:55:41.838] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain

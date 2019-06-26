@@ -4,7 +4,7 @@
     <div class="container">        
         <div class="jumbotron">
             <h1>اداره کل آموزش و پرورش خراسان شمالی</h1>
-            <p>فرم پیش ثبت نام دانش آموزان ورود به پایه هفتم مدارس نمونه دولتی دوره اول متوسطه</p>
+            <p>فرم پیش ثبت نام دانش آموزان متقاضی ورود به پایه هفتم مدارس نمونه دولتی دوره اول متوسطه</p>
             <p>سال تحصیلی 99-1398</p>
             <p><button class="btn" onclick="window.open('logoff','_self')">خروج</button></p>
         </div> 
@@ -122,20 +122,37 @@
                             <input type="text" name="mobile" class="form-control" placeholder="شماره تلفن همراه">
                         </div>
                         </div>
-                    </div>    
+                    </div>  
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="">شغل پدر</label>
+                                <input type="text" name="fathersjob" id="" class="form-control" placeholder="شغل پدر">
+                            </div>
+                        </div>
+                        <div class="col">
+                                <div class="form-group">
+                                    <label for="">شغل مادر</label>
+                                    <input type="text" name="mothersjob" id="" class="form-control" placeholder="شغل مادر">
+                                </div>
+                            </div>
+                    </div>  
                     <div class="form-group">
                         <label for="">متقاضی استفاده از سهمیه شاهد  </label>
-                        <ul>
-                            <li> اولویت اول : فرزند شهید- فرزند مفقودالاثر - فرزند جانباز با درصد جانبازی بالای ۷۰ درصد</li>
-                            <li> اولویت دوم : فرزند آزاده بابیش از سه سال سابقه اسارت - فرزند جانباز با درصد جانبازی ۵۰ تا ۶۹</li>
-                            <li> اولویت سوم : فرزند جانباز با درصد جانبازی ۲۵ تا ۴۹ - فرزند آزاده کمتر از سه سال سابقه اسارت</li>
-                            <li> اولویت چهارم : فرزند جانباز با درصد جانبازی زیر ۲۵ درصد - فرزند آزاده کمتر از شش  ماه سابقه اسارت</li>
-                        </ul>
+                        
                         <select class="form-control" name="shahed">
                             @foreach( App\Students::getPossibleStatuses('students','shahed') as $key => $value)
                                 <option value="{{ $value }}"> {{ $value }} </option>
                             @endforeach
                         </select>
+                        <div class="alet-info">
+                                <ul class="alert alert-warning">
+                                        <li> اولویت اول : فرزند شهید- فرزند مفقودالاثر - فرزند جانباز با درصد جانبازی بالای ۷۰ درصد</li>
+                                        <li> اولویت دوم : فرزند آزاده بابیش از سه سال سابقه اسارت - فرزند جانباز با درصد جانبازی ۵۰ تا ۶۹</li>
+                                        <li> اولویت سوم : فرزند جانباز با درصد جانبازی ۲۵ تا ۴۹ - فرزند آزاده کمتر از سه سال سابقه اسارت</li>
+                                        <li> اولویت چهارم : فرزند جانباز با درصد جانبازی زیر ۲۵ درصد - فرزند آزاده کمتر از شش  ماه سابقه اسارت</li>
+                                </ul>
+                        </div>
                     </div>
                     
                     
@@ -150,7 +167,7 @@
                     <div class="form-group">
                         <label for="">حافظ قرآن کریم 
                             <input type="checkbox" name="quran_remember" onclick="javascript:toggleJoz()">
-                        
+                            <p class="alert alert-warning">صرفا گواهی معتبر دارالقرآن آموزش و پرورش - اداره اوقاف و امور خیریه و ادارات ارشاد اسلامی مورد تایید است </p>
                         <div id="joz">
                             تعداد جزء ها را انتخاب کنید
                                 <select name="jozs" id="">
@@ -170,7 +187,7 @@
                         </label>                      
                     </div>
                     <div class="form-group">
-                        <label for="">کسب رتبه در مسابقات قرآن  ( قرائت حفظ و مفاهیم ) عترت ( نهج البلاغه صحیفه سجادیه مداحی ) نماز ( اذان احکام و انشای نماز )  </label>
+                        <label for="">کسب رتبه در مسابقات قرآن  ( قرائت حفظ و مفاهیم ) عترت ( نهج البلاغه صحیفه سجادیه مداحی ) نماز ( اذان احکام و انشای نماز )  صرفا در پایه پنجم و ششم (متولی آموزش و پرورش) </label>
                         <table class="table table-bordered">
                                 <tr>
                                         <th>سطح</th>
@@ -252,7 +269,7 @@
                         </table>
                     </div>
                     <div class="form-group">
-                        <label>کسب رتبه در مسابقات فرهنگی و هنری صرفا در پایه پنجم و ششم و متولی آموزش و پرورش</label>
+                        <label>کسب رتبه در مسابقات فرهنگی و هنری صرفا در پایه پنجم و ششم (متولی آموزش و پرورش) </label>
                         <table class="table table-bordered">
                             <tr>
                                 <th>سطح</th>
@@ -312,7 +329,7 @@
                         </table>
                     </div>
                     <div class="form-group">
-                        <label > کسب رتبه منتخب منطقه ای استانی و کشوری در جشنواره جابربن حیان</label>
+                        <label > کسب رتبه منتخب منطقه ای استانی و کشوری در جشنواره جابربن حیان صرفا در پایه پنجم و ششم </label>
                         <table class="table table-bordered">
                             <tr>
                                 <th>سطح</th>
@@ -342,7 +359,7 @@
 
                             </tr>
                             <tr>
-                                <th>کشور</th>
+                                <th>راه یافته به کشوری</th>
                                 <td>
                                         <select name="jaber_1k" id="">
                                             @for ($i =0 ;$i <=30 ; $i++)
@@ -354,7 +371,7 @@
                         </table>
                     </div>
                     <div class="form-group">
-                            <label> کسب رتبه منطقه ای استانی و کشوری در مسابقات و المپیادهای ورزشی -- صرفا در پایه پنجم و ششم و متولی آموزش و پرورش</label>                        <table class="table table-bordered">
+                            <label> کسب رتبه منطقه ای استانی و کشوری در مسابقات و المپیادهای ورزشی صرفا در پایه پنجم و ششم (متولی آموزش و پرورش) </label>                        <table class="table table-bordered">
                             <tr>
                                 <th>سطح</th>
                                 <th>تعداد مقام اول</th>
@@ -454,14 +471,20 @@
                             </select>
                         </div>
                     <div class="form-group">
-                        <label for="">عضویت در شورای دانش آموزی  
+                        <label for="">عضویت در شورای دانش آموزی  (پایه های پنجم و ششم)
                             <input type="checkbox" name="shora" id="">
                         </label>                        
                     </div>
                     <div class="form-group">
-                        <label for=""> عضویت در تشکل های دانش آموزی ( پیشتازان )
+                        <label for=""> عضویت در تشکل های دانش آموزی ( پیشتازان ) (پایه های پنجم و ششم)
                             <input type="checkbox" name="pishtazan" id="">
                         </label>                        
+                    </div>
+                    <div class="alerrt alert-danger">
+                        <b>توجه</b>
+                        <p>
+                            چنانچه ظرفیت مدرسه نمونه دولتی با دانش آموزان اولویت اول عملکرد تحصیلی تکمیل نشود امکان ثبت نام اولویت دوم عملکرد تحصیلی فراهم می آید
+                        </p>
                     </div>
                     <div class="form-group">
                         <input type="submit" value="ثبت" class="btn btn-primary btn-block">

@@ -142,6 +142,24 @@
     <div class="row">
             <div class="col">
                 <div class="form-group">
+                    <label for="">شغل پدر    </label>
+                    <span class="form-control">
+                        {{ $student->fathersjob }}
+                    </span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="">شغل مادر     </label>
+                    <span class="form-control">
+                        {{ $student->mothersjob }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    <div class="row">
+            <div class="col">
+                <div class="form-group">
                     <label for="">   عملکرد تحصیلی   </label>
                     <span class="form-control">
                         {{ $student->academic_performance }}

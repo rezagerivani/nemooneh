@@ -42,12 +42,14 @@ class StudentsController extends Controller
         $student->address              = $request->address;
         $student->phone                = $request->phone;
         $student->mobile               = $request->mobile;
+        $student->fathersjob           = $request->fathersjob;
+        $student->mothersjob            = $request->mothersjob;
         $student->academic_performance = $request->academic_performance;
         switch($student->academic_performance){
-            case "کسب مقیاس خیلی خوب در تمامی دروس در نوبت پایه های پنجم و ششم":
+            case "اولویت اول : کسب مقیاس خیلی خوب در تمامی دروس در هر دو نوبت پایه های پنجم و ششم":
                 $student->score1 = 600;
                 break;
-            case "کسب مقیاس خوب در یک درس در یک نوبت یکی از پایه های پنجم یا ششم و مقیاس خیلی خوب در سایر دروس هر دو نوبت پایه های پنجم و ششم":
+            case "اولویت دوم : کسب مقیاس خوب در یک درس در یک نوبت یکی از پایه های پنجم یا ششم و مقیاس خیلی خوب در سایر دروس هر دو نوبت پایه های پنجم و ششم":
                 $student->score1 = 500;    
                 break;
             default:
@@ -141,7 +143,7 @@ class StudentsController extends Controller
         }
 
         $student->sum_score = $student->score1+$student->score2+$student->score3+$student->score4+$student->score5+$student->score6+$student->score7+$student->score8+$student->score9;
-        $student->tracking_code        = str_random(25);
+        $student->tracking_code        = str_random(5);
 
         if($student->save()){            
             return redirect('success/'.$student->tracking_code);

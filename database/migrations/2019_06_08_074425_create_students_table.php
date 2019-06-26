@@ -24,7 +24,7 @@ class CreateStudentsTable extends Migration
                 'جاجرم - دخترانه عالمه ',
                 'راز و جرگلان - پسرانه حضرت مهدی ',
                 'راز و جرگلان - دخترانه نرجس ',
-                'شیروان - پسرانه فزانگان ',
+                'شیروان - پسرانه فرزانگان ',
                 'شیروان - دخترانه ایمان',
                 'فاروج - پسرانه الغدیر ',
                 'فاروج - دخترانه فدک ',
@@ -43,9 +43,11 @@ class CreateStudentsTable extends Migration
             $table->text('address');
             $table->string('phone', 11);
             $table->string('mobile', 11);
+            $table->string('fathersjob',100)->nullable();
+            $table->string('mothersjob',100)->nullable();
             $table->enum('academic_performance',[
-                'کسب مقیاس خیلی خوب در تمامی دروس در نوبت پایه های پنجم و ششم',
-                'کسب مقیاس خوب در یک درس در یک نوبت یکی از پایه های پنجم یا ششم و مقیاس خیلی خوب در سایر دروس هر دو نوبت پایه های پنجم و ششم'
+                'اولویت اول : کسب مقیاس خیلی خوب در تمامی دروس در هر دو نوبت پایه های پنجم و ششم',
+                'اولویت دوم : کسب مقیاس خوب در یک درس در یک نوبت یکی از پایه های پنجم یا ششم و مقیاس خیلی خوب در سایر دروس هر دو نوبت پایه های پنجم و ششم'
                 ]);
             $table->integer('score1')->default('0')->nullable();    
             $table->string('quran_remember',3)->default('off')->nullable();
